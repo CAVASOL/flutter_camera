@@ -15,8 +15,8 @@ slayed slightly.
 >API
 
 ```
-    tester
+    atester
         ├── server.py
-        ├── mobilenet_v2.py
+        ├── mobilenet_v2.h5
         └── prediction.py
 ```
