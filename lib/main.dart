@@ -59,9 +59,12 @@ class _CameraAppState extends State<CameraApp> {
     return Scaffold(
       body: Stack(
         children: [
-          SizedBox(
-            height: double.infinity,
-            child: CameraPreview(_controller),
+          Center(
+            child: SizedBox(
+              height: 480,
+              width: 280,
+              child: CameraPreview(_controller),
+            ),
           )
         ],
       ),

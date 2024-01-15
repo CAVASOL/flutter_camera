@@ -1,16 +1,22 @@
-# flutter_camera
+## Flutter Camera
 
-A new Flutter project.
+slayed slightly. 
 
-## Getting Started
+### Description
 
-This project is a starting point for a Flutter application.
+>Assets
 
-A few resources to get you started if this is your first Flutter project:
+```
+    assets 
+        mobilenet_v1_1.0_224.tflite
+        mobilenet_v1_1.0_224.txt
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+>API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+    tester
+        ├── server.py
+        ├── mobilenet_v2.py
+        └── prediction.py
+```
